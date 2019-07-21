@@ -44,3 +44,12 @@ CREATE TABLE CRIMINALELEMENTS (
     SUBJECTIVE_ELEMENT_DESCRIPTION VARCHAR(255),
     OBJECTIVE_ELEMENT_DESCRIPTION VARCHAR(255)
 ) [42000-197]
+2019-07-21 19:06:27 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "PROCURATOR" not found; SQL statement:
+alter table procurator add column (
+AGE int,
+SEX varchar(10),
+BIRTHDAY timestamp,
+ID_NUMBER varchar(50),
+EXPERIENCE varchar(255)
+) [42102-197]
