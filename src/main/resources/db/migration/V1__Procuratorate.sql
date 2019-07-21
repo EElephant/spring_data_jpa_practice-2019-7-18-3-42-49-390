@@ -1,0 +1,21 @@
+create table PROCURATORATE (
+    ID varchar(100) not null,
+    NAME varchar(50) not null
+);
+
+create table PROSECUTOR (
+    ID varchar(100) not null,
+    NAME varchar(50) not null
+);
+
+CREATE TABLE CRIMINALCASE (
+    ID VARCHAR(100) NOT NULL,
+    NAME VARCHAR(50),
+    CASE_TIME INT(100)
+);
+
+CREATE TABLE CRIMINALELEMENTS (
+    ID VARCHAR(100) NOT NULL,
+    SUBJECTIVE_ELEMENT_DESCRIPTION VARCHAR(255),
+    OBJECTIVE_ELEMENT_DESCRIPTION VARCHAR(255)
+);
